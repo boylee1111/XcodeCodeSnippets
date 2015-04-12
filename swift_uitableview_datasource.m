@@ -1,5 +1,5 @@
 // Swift UITableView DataSource
-// 
+// Implement UITableViewDataSource required function.
 //
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: 97B26A6C-2BE8-42C5-B5C6-E9AAC1D6F2BA
