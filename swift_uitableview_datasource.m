@@ -7,18 +7,18 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-// MARK: - UITableView DataSource
-
-func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return <#numberOfRowsSection#>
-}
-
-func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier(<#identifier#>, forIndexPath: indexPath) as? UITableViewCell
+    // MARK: - UITableView DataSource
     
-    if cell == nil {
-        cell = UITableViewCell(style: <#UITableViewCellStyle#>, reuseIdentifier: <#identifier#>)
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return <#numberOfRowsSection#>
     }
     
-    return cell
-}
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier(<#identifier#>, forIndexPath: indexPath) as? UITableViewCell
+        
+        if cell == nil {
+            cell = UITableViewCell(style: <#UITableViewCellStyle#>, reuseIdentifier: <#identifier#>)
+        }
+        
+        return cell
+    }
