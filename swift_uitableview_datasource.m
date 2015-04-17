@@ -14,10 +14,10 @@
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(<#identifier#>, forIndexPath: indexPath) as? UITableViewCell
-        
+        let identifier = <#identifier#>
+        let cell = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath) as? UITableViewCell
         if cell == nil {
-            cell = UITableViewCell(style: <#UITableViewCellStyle#>, reuseIdentifier: <#identifier#>)
+            cell = UITableViewCell(style: <#UITableViewCellStyle#>, reuseIdentifier: identifier)
         }
         
         return cell
